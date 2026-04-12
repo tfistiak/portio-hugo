@@ -8,7 +8,7 @@ content: |
   in various fields by
 buttonName: Contact me
 buttonURL: contact
-image: images/hero/2960351.jpg
+image: images/hero/2960351.png
 videoThumb: images/hero/popup-thumb.png
 videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ---
