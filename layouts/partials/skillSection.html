@@ -1,4 +1,5 @@
-{{ with .Site.Data.skillSection }}
+{{ with site.GetPage "sections/skill-section" }}
+{{ with .Params }}
 {{ if .enable }}
 <section class="section skill", id="skills">
     <div class="skill__background_shape">
@@ -57,5 +58,6 @@
         </div>
     </div>
 </section>
+{{ end }}
 {{ end }}
 {{ end }}

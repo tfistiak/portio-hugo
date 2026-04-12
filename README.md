@@ -1,52 +1,43 @@
-<h1>Portio Hugo</h1>
-<img src="https://user-images.githubusercontent.com/25920065/91142412-8a895c80-e6d2-11ea-93dd-5de59ce60adf.jpg" alt="screenshot" width="100%">
+## 🌟 Portio Light
 
-Portio is a simple, minimal and responsive Portfolio Hugo Theme. Portio is well organized, well-formatted and named accordingly so it’s easy to change any and all of the design. Portio is built with Bootstrap 4. You can customize it very easy to fit your needs.
+A hugo powered static website.
 
-## Table of Contents
+### Prerequisites
 
-- [Live Demo](#live-demo)
-- [Installation](#installation)
-- [Main Features](#features)
-- [Support](#support)
-- [Licensing](#licensing)
-- [Hire](#hire)
+To contribute effectively, you'll need some prerequisites installed on your machine:
 
-## Live Demo
+- **Hugo Extended v0.160+**: [[https://gohugo.io/installation/](https://gohugo.io/installation/)]
+- **Node v18+**: [[https://nodejs.org/en/download/](https://nodejs.org/en/download/)]
+- **Go v1.22+**: [[https://go.dev/doc/install](https://go.dev/doc/install)]
 
-Checkout the live demo [here](https://portio-hugo.staticmania.com/)
+### Install Dependencies
 
-## Installation
+Install all the necessary dependencies using the following command:
 
-1. Add the repository into your Hugo Project repository as a submodule, `git submodule add https://github.com/StaticMania/portio-hugo themes/portio`.
-2. Copy the `.forestry`, `data`, `content`, `static`, `resources` & `config.toml` files from the `exampleSite` directory and paste it on you Hugo Project repository/directory. From the site home directory:
+```bash
+yarn install
+```
 
-   cp -a themes/portio/exampleSite/\* .
+### Project Setup
 
-3. Build your site with `hugo serve` and see the result at `http://localhost:1313/`.
+To set up the project, run the following command:
 
-**Make sure to use Hugo Extended to serve/build your site, as else the SASS/SCSS won't be rendered correctly**
+```bash
+yarn project-setup
+```
 
-## Features
+### Development Command
 
-- Responsive Ready.
-- Powered by Bootstrap 4.
-- Blog Support.
-- Well formatted code.
-- Easy Customization.
-- FabForm.io [static website form](https://fabform.io).
-- Google Analytics.
-- Forestry Integrated.
-- Crafted for Personal Portfolio
+Start the development server using the following command:
 
-## Support
+```bash
+yarn dev
+```
 
-Have some question or facing any technical trouble feel free to [Contact Us](https://staticmania.com/contact/)
+### Preview Command
 
-## Licensing
+Start the production server to preview your changes and test functionality:
 
-This Repository is licensed under the [MIT](https://github.com/StaticMania/portio-hugo/blob/master/LICENSE) License
-
-## Hire
-
-Need help to build HUGO websites with your custom requirements. Feel free to [contact](https://staticmania.com/contact/) us. We provide custom development service for HUGO.
+```bash
+yarn preview
+```

@@ -1,4 +1,5 @@
-{{ with .Site.Data.serviceSection }}
+{{ with site.GetPage "sections/service" }}
+{{ with .Params }}
 {{ if .enable }}
 <section class="section service" id="service">
     <div class="service__background">
@@ -64,5 +65,6 @@
         </div>
     </div>
 </section>
+{{ end }}
 {{ end }}
 {{ end }}

@@ -33,3 +33,12 @@ $line-height-base: 1.75;
 
 // Misc
 $link-hover-decoration: none;
+
+//
+// Bootstrap-equivalent variables (no longer importing Bootstrap SCSS source)
+//
+$white:        #fff;
+$dark:         #343a40;
+$light:        #f8f9fa;
+$font-size-lg: $font-size-base * 1.25;
+

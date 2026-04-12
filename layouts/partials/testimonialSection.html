@@ -1,4 +1,5 @@
-{{ with .Site.Data.testimonialSection }}
+{{ with site.GetPage "sections/testimonial" }}
+{{ with .Params }}
 {{ if .enable }}
 <section class="section testimonial">
     <div class="testimonial__background_shape">
@@ -43,5 +44,6 @@
         </div>
     </div>
 </section>
+{{ end }}
 {{ end }}
 {{ end }}
