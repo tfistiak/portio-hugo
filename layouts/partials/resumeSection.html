@@ -1,5 +1,4 @@
-{{ with site.GetPage "sections/resume" }}
-{{ with .Params }}
+{{ with .Params.resume }}
 {{ if .enable }}
 <section class="section resume" id="resume">
     <div class="resume__background"></div>
@@ -46,6 +45,5 @@
         </div>
     </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}

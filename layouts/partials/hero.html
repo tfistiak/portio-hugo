@@ -1,5 +1,4 @@
-{{ with site.GetPage "sections/hero" }}
-{{ with .Params }}
+{{ with .Params.hero }}
 {{ if .enable }}
 <section class="hero" id="home">
   <div class="hero_background-svg">
@@ -67,6 +66,5 @@
     </div>
   </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}

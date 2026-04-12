@@ -1,5 +1,4 @@
-{{ with site.GetPage "sections/portfolio" }}
-{{ with .Params }}
+{{ with .Params.portfolio }}
 {{ if .enable }}
 <section class="section portfolio" id="portfolio">
   <div class="container">
@@ -31,6 +30,5 @@
     </div>
   </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}

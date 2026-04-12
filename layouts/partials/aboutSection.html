@@ -1,5 +1,4 @@
-{{ with site.GetPage "sections/about" }}
-{{ with .Params }}
+{{ with .Params.about }}
 {{ if .enable }}
 <section class="section about" id="about">
     <div class="container">
@@ -55,6 +54,5 @@
         </div>
     </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}
