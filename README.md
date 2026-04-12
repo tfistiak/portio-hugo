@@ -1,4 +1,4 @@
-## 🌟 Portio Light
+## 🌟 Portio Hugo
 
 A hugo powered static website.
 
